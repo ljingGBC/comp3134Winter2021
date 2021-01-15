@@ -1,0 +1,51 @@
+• What is the definition of server port?
+A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
+
+
+• What is server port range?
+Port numbers can run from 1 to 65535. Port numbers from 1 to 1023 are reserved for common TCP/IP applications and are called well-known ports.
+
+
+• How many bits does number above represent?
+65535 has 16 bits
+
+
+• State 10 common server ports
+
+SMTP - 25
+SMTP is known as the Simple Mail Transfer Protocol. It is associated with the TCP port number 25.
+
+HTTP - 80
+Port 80 is associated with HTTP, Hypertext Transfer Protocol. It comes under the category of a TCP protocol.
+
+HTTPS - 443
+HTTPS - 443 is also associated with the TCP protocol. HTTPS port 443 also lets you connect to the internet by establishing a connection between the webpages and the browser.
+
+FTP - 20, 21
+FTP is the abbreviation of "File Transfer Protocol". The purpose of FTP is to transfer files over the internet. 
+
+Port 20 performs the task of forwarding and transferring of data. It takes over the task of transferring FTP data when it is in active mode.
+
+Port 21 performs the task of signaling for FTP. It listens to all of the commands and provides a flow control for data. It is quite essential for maintaining the flow of data.
+
+TELNET - 23
+TELNET port 23 comes under the category of TCP Protocols. Its main function is to establish a connection between a server and a remote computer.
+
+IMAP - 143
+IMAP is the abbreviation of 'Internet Message Access Protocol'. The IMAP -143 Port lies under the category of TCP protocol.
+
+SSH - 22
+SSH is also referred to as 'Secure Shell'. It operates on the port number 22 of the TCP protocol. It carries out the task of remotely connecting to a remote server or host.
+
+DNS - 53
+DNS is referred to as 'Domain Name System'. It operates on the port 53 of TCP and UDP protocols.
+
+DHCP - 67, 68
+DHCP is also known as 'Dynamic Host Configuration Protocol'. It basically runs on the UDP protocol.
+
+POP3-110
+POP3 is also referred to as Post Office Protocol Version 3. It operates on the port 110 of TCP Protocol.
+
+
+
+https://www.examcollection.com/certification-training/network-plus-overview-of-common-tcp-and-udp-default-ports.html
