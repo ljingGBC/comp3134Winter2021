@@ -1,0 +1,29 @@
+Lei Jing@Alienware15-R2 MINGW64 /d/CyberSecurity/comp3134Winter2021 (main)
+$ ping www.facebook.com
+
+Pinging star-mini.c10r.facebook.com [31.13.80.36] with 32 bytes of data:
+Reply from 31.13.80.36: bytes=32 time=15ms TTL=56
+Reply from 31.13.80.36: bytes=32 time=35ms TTL=56
+Reply from 31.13.80.36: bytes=32 time=23ms TTL=56
+Reply from 31.13.80.36: bytes=32 time=16ms TTL=56
+
+Ping statistics for 31.13.80.36:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 15ms, Maximum = 35ms, Average = 22ms
+
+
+
+Lei Jing@Alienware15-R2 MINGW64 /d/CyberSecurity/comp3134Winter2021 (main)
+$ ping www.linkedin.com
+
+Pinging l-0005.l-msedge.net [13.107.42.14] with 32 bytes of data:
+Reply from 13.107.42.14: bytes=32 time=24ms TTL=119
+Reply from 13.107.42.14: bytes=32 time=50ms TTL=119
+Reply from 13.107.42.14: bytes=32 time=17ms TTL=119
+Reply from 13.107.42.14: bytes=32 time=35ms TTL=119
+
+Ping statistics for 13.107.42.14:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 50ms, Average = 31ms
