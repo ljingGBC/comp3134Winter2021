@@ -1,0 +1,36 @@
+root@ljingGBC-lamp-ubuntu:~# ping www.google.com
+PING www.google.com (172.217.0.228) 56(84) bytes of data.
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=1 ttl=121 time=0.966 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=2 ttl=121 time=0.562 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=3 ttl=121 time=0.566 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=4 ttl=121 time=0.562 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=5 ttl=121 time=0.529 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=6 ttl=121 time=0.582 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=7 ttl=121 time=0.570 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=8 ttl=121 time=0.486 ms
+64 bytes from dfw06s38-in-f4.1e100.net (172.217.0.228): icmp_seq=9 ttl=121 time=0.559 ms
+^C
+--- www.google.com ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8155ms
+rtt min/avg/max/mdev = 0.486/0.598/0.966/0.132 ms
+
+
+
+
+
+root@ljingGBC-lamp-ubuntu:~# ping www.amazon.com -w10
+PING d3ag4hukkh62yn.cloudfront.net (13.225.9.165) 56(84) bytes of data.
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=1 ttl=238 time=125 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=2 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=3 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=4 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=5 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=6 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=7 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=8 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=9 ttl=238 time=124 ms
+64 bytes from server-13-225-9-165.lis50.r.cloudfront.net (13.225.9.165): icmp_seq=10 ttl=238 time=124 ms
+
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 124.062/124.178/124.879/0.235 ms
