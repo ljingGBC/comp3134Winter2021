@@ -1,0 +1,23 @@
+Domain Name: twitter.com
+IP Address: 104.244.42.1
+Geolocation: US (United States), CA, California, 94103 San Francisco
+
+
+Domain Name: linkedin.com
+IP Address: 13.107.42.14
+Geolocation: US (United States), WA, Washington, 98052 Redmond
+
+
+Domain Name: monster.com
+IP Address: 208.71.193.147
+Geolocation: US (United States), MA, Massachusetts, 01752 Marlborough
+
+
+Domain Name: ubisoft.com
+IP Address: 35.175.45.242
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+
+Domain Name: paypal.com
+IP Address: 64.4.250.36
+Geolocation: US (United States), CA, California, 95131 San Jose
