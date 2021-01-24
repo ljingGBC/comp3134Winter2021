@@ -1,0 +1,61 @@
+root@ljingGBC-lamp-ubuntu:~# nmap amazon.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 21:36 UTC
+Nmap scan report for amazon.ca (54.239.18.172)
+Host is up (0.024s latency).
+Other addresses for amazon.ca (not scanned): 54.239.19.238 52.94.225.242
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 11.51 seconds
+root@ljingGBC-lamp-ubuntu:~#
+
+
+
+root@ljingGBC-lamp-ubuntu:~# nmap -p 80/tcp amazon.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 21:39 UTC
+Error #487: Your port specifications are illegal.  Example of proper form: "-100,200-1024,T:3000-4000,U:60000-"
+QUITTING!
+root@ljingGBC-lamp-ubuntu:~# nmap -p 80 amazon.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 21:40 UTC
+Nmap scan report for amazon.ca (54.239.19.238)
+Host is up (0.024s latency).
+Other addresses for amazon.ca (not scanned): 54.239.18.172 52.94.225.242
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.13 seconds
+root@ljingGBC-lamp-ubuntu:~#
+
+
+
+root@ljingGBC-lamp-ubuntu:~# nmap -p 80-500 amazon.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 21:44 UTC
+Nmap scan report for amazon.ca (52.94.225.242)
+Host is up (0.024s latency).
+Other addresses for amazon.ca (not scanned): 54.239.18.172 54.239.19.238
+Not shown: 419 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 11.31 seconds
+root@ljingGBC-lamp-ubuntu:~#
+
+
+
+root@ljingGBC-lamp-ubuntu:~# nmap -F georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-24 21:46 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0087s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.81 seconds
+root@ljingGBC-lamp-ubuntu:~#
