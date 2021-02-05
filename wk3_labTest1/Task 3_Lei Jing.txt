@@ -1,0 +1,16 @@
+Task 3:Verify that the server can communicate with another computer or network
+
+
+Lei Jing@Alienware15-R2 MINGW64 /d/CyberSecurity/comp3134Winter2021/wk3_labTest1 (main)
+$ ping ubisoft.com
+
+Pinging ubisoft.com [52.205.208.159] with 32 bytes of data:
+Reply from 52.205.208.159: bytes=32 time=58ms TTL=229
+Reply from 52.205.208.159: bytes=32 time=50ms TTL=229
+Reply from 52.205.208.159: bytes=32 time=46ms TTL=229
+Reply from 52.205.208.159: bytes=32 time=39ms TTL=229
+
+Ping statistics for 52.205.208.159:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 39ms, Maximum = 58ms, Average = 48ms

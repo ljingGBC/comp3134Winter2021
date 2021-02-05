@@ -1,0 +1,17 @@
+Task 4:Determine route from your local machine to the company’s network machine
+
+Lei Jing@Alienware15-R2 MINGW64 /d/CyberSecurity/comp3134Winter2021/wk3_labTest1 (main)
+$ tracert ubisoft.com
+
+Tracing route to ubisoft.com [52.0.37.193]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     6 ms  192.168.1.1
+  2    22 ms    18 ms    14 ms  104.152.163.65
+  3     *        *       15 ms  104.171.62.102
+  4     *        *        *     Request timed out.
+  5    24 ms    19 ms    19 ms  135.0.199.85
+  6    25 ms    18 ms    15 ms  207.35.12.101
+  7    25 ms    17 ms    18 ms  tcore3-torontoxn_bundle-ether7.net.bell.ca [64.230.97.166]
+  8    16 ms    13 ms    22 ms  bx3-torontoxn_hundredgige0-1-0-0.net.bell.ca [64.230.97.145]
+  9    52 ms    31 ms    28 ms  99.82.178.222
