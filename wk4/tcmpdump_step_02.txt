@@ -1,0 +1,14 @@
+2. Capture Only N Number of Packets
+
+root@ljingGBC-lamp-ubuntu:~# tcpdump -c 5 -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+05:25:31.343965 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 774921368:774921476, ack 1240269979, win 501, length 108
+05:25:31.344029 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 108:144, ack 1, win 501, length 36
+05:25:31.344081 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 144:252, ack 1, win 501, length 108
+05:25:31.344121 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 252:288, ack 1, win 501, length 36
+05:25:31.344505 IP 178.128.224.10.60984 > dns.google.domain: 17552+ PTR? 93.163.152.104.in-addr.arpa. (45)
+5 packets captured
+16 packets received by filter
+0 packets dropped by kernel

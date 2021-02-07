@@ -1,0 +1,25 @@
+9. Capture only TCP Packets.
+
+root@ljingGBC-lamp-ubuntu:~# tcpdump -i eth0 tcp
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+05:37:01.455010 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 783942732:783942840, ack 1240279287, win 501, length 108
+05:37:01.455108 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 108:144, ack 1, win 501, length 36
+05:37:01.455194 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 144:252, ack 1, win 501, length 108
+05:37:01.455317 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 252:288, ack 1, win 501, length 36
+05:37:01.469642 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 108, win 2062, length 0
+05:37:01.469690 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 252, win 2061, length 0
+05:37:01.504404 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 288:460, ack 1, win 501, length 172
+05:37:01.504507 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 460:644, ack 1, win 501, length 184
+05:37:01.504583 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 644:680, ack 1, win 501, length 36
+05:37:01.504681 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 680:828, ack 1, win 501, length 148
+05:37:01.504768 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 828:864, ack 1, win 501, length 36
+05:37:01.504834 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 864:1012, ack 1, win 501, length 148
+05:37:01.504878 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 1012:1048, ack 1, win 501, length 36
+05:37:01.504935 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 1048:1188, ack 1, win 501, length 140
+05:37:01.505004 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 1188:1224, ack 1, win 501, length 36
+05:37:01.510052 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 288, win 2061, length 0
+05:37:01.510103 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 1224:3064, ack 1, win 501, length 1840
+05:37:01.518507 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 1012, win 2058, length 0
+05:37:01.518591 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 3064:3432, ack 1, win 501, length 368

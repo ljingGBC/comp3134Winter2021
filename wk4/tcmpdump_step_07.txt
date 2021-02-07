@@ -1,0 +1,18 @@
+7. Read Captured Packets File
+
+root@ljingGBC-lamp-ubuntu:~# tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+05:33:28.538037 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 783743352:783743396, ack 1240278179, win 501, length 44
+05:33:28.538109 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 44:152, ack 1, win 501, length 108
+05:33:28.538150 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 152:188, ack 1, win 501, length 36
+05:33:28.563908 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 44, win 2064, length 0
+05:33:28.563953 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 188, win 2063, length 0
+05:33:28.849580 IP 203.ip-51-83-74.eu.48097 > 178.128.224.10.ssh: Flags [P.], seq 2467360237:2467360253, ack 3163640833, win 246, options [nop,nop,TS val 1085904477 ecr 3224323247], length 16
+05:33:28.849656 IP 178.128.224.10.ssh > 203.ip-51-83-74.eu.48097: Flags [.], ack 16, win 507, options [nop,nop,TS val 3224326605 ecr 1085904477], length 0
+05:33:28.936637 IP 203.ip-51-83-74.eu.48097 > 178.128.224.10.ssh: Flags [P.], seq 16:68, ack 1, win 246, options [nop,nop,TS val 1085904499 ecr 3224326605], length 52
+05:33:28.936678 IP 178.128.224.10.ssh > 203.ip-51-83-74.eu.48097: Flags [.], ack 68, win 507, options [nop,nop,TS val 3224326692 ecr 1085904499], length 0
+05:33:28.936804 IP 178.128.224.10.ssh > 203.ip-51-83-74.eu.48097: Flags [P.], seq 1:53, ack 68, win 507, options [nop,nop,TS val 3224326692 ecr 1085904499], length 52
+05:33:29.023721 IP 203.ip-51-83-74.eu.48097 > 178.128.224.10.ssh: Flags [.], ack 53, win 246, options [nop,nop,TS val 1085904520 ecr 3224326692], length 0
+05:33:29.023757 IP 203.ip-51-83-74.eu.48097 > 178.128.224.10.ssh: Flags [P.], seq 68:152, ack 53, win 246, options [nop,nop,TS val 1085904520 ecr 3224326692], length 84
+05:33:29.067337 IP 178.128.224.10.ssh > 203.ip-51-83-74.eu.48097: Flags [.], ack 152, win 507, options [nop,nop,TS val 3224326822 ecr 1085904520], length 0

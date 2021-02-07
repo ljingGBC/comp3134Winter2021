@@ -1,0 +1,26 @@
+1. Capture Packets from Specific Interface
+
+root@ljingGBC-lamp-ubuntu:~# tcpdump -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+05:23:43.516347 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 774844956:774845064, ack 1240269487, win 501, length 108
+05:23:43.516473 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 108:144, ack 1, win 501, length 36
+05:23:43.516577 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 144:252, ack 1, win 501, length 108
+05:23:43.516674 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 252:288, ack 1, win 501, length 36
+05:23:43.516991 IP 178.128.224.10.37958 > dns.google.domain: 33204+ PTR? 93.163.152.104.in-addr.arpa. (45)
+05:23:43.533364 IP dns.google.domain > 178.128.224.10.37958: 33204 NXDomain 0/1/0 (100)
+05:23:43.533761 IP 178.128.224.10.50874 > dns.google.domain: 41249+ PTR? 10.224.128.178.in-addr.arpa. (45)
+05:23:43.550772 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 108, win 511, length 0
+05:23:43.550826 IP 104.152.163.93.63383 > 178.128.224.10.ssh: Flags [.], ack 252, win 511, length 0
+05:23:43.558227 IP dns.google.domain > 178.128.224.10.50874: 41249 NXDomain 0/1/0 (112)
+05:23:43.558531 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 288:460, ack 1, win 501, length 172
+05:23:43.558652 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 460:496, ack 1, win 501, length 36
+05:23:43.558692 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 496:644, ack 1, win 501, length 148
+05:23:43.558742 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 644:680, ack 1, win 501, length 36
+05:23:43.558796 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 680:828, ack 1, win 501, length 148
+05:23:43.558836 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 828:864, ack 1, win 501, length 36
+05:23:43.558878 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 864:1012, ack 1, win 501, length 148
+05:23:43.558938 IP 178.128.224.10.ssh > 104.152.163.93.63383: Flags [P.], seq 1012:1048, ack 1, win 501, length 36
+05:23:43.559072 IP 178.128.224.10.50987 > dns.google.domain: 33320+ PTR? 8.8.8.8.in-addr.arpa. (38)
+05:23:43.559612 IP dns.google.domain > 178.128.224.10.50987: 33320 1/0/0 PTR dns.google. (62)
