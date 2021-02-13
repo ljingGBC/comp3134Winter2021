@@ -1,0 +1,44 @@
+J. Changing the SSH Port 
+
+5)Commands:
+root@ljingGBC-lamp-ubuntu:~# ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     LIMIT       Anywhere
+443/tcp                    ALLOW       Anywhere
+80/tcp                     ALLOW       Anywhere
+22/tcp (v6)                LIMIT       Anywhere (v6)
+443/tcp (v6)               ALLOW       Anywhere (v6)
+80/tcp (v6)                ALLOW       Anywhere (v6)
+4444 (v6)                  ALLOW       Anywhere (v6)
+
+root@ljingGBC-lamp-ubuntu:~# ufw allow 2222/tcp 
+Rule added
+Rule added (v6)
+root@ljingGBC-lamp-ubuntu:~#
+root@ljingGBC-lamp-ubuntu:~# ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     LIMIT       Anywhere
+443/tcp                    ALLOW       Anywhere
+80/tcp                     ALLOW       Anywhere
+2222/tcp                   ALLOW       Anywhere
+22/tcp (v6)                LIMIT       Anywhere (v6)
+443/tcp (v6)               ALLOW       Anywhere (v6)
+80/tcp (v6)                ALLOW       Anywhere (v6)
+4444 (v6)                  ALLOW       Anywhere (v6)
+2222/tcp (v6)              ALLOW       Anywhere (v6)
+
+
+6)Commands:
+root@ljingGBC-lamp-ubuntu:~# service ssh restart
+
+
+7)Commands:
+Lei Jing@Alienware15-R2 MINGW64 ~/Desktop/wk5 (master)
+$ ssh root@178.128.224.10 -p 2222
+ssh: connect to host 178.128.224.10 port 2222: Connection refused
