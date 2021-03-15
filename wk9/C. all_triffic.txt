@@ -1,0 +1,1 @@
+root@ljingGBC-lamp-ubuntu:~# tcpdump -w all_traffic_20210312_0330.pcap -i any
