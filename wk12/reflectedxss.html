@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  function showOutput() {
+    var input = document.getElementById("input").value;
+    var output = document.getElementById("output");
+
+    if(input.includes("<script>")){
+      var script= document.createElement('script');
+      script.type='text/javascript';
+      script.text=input.replace(/(<([^>]+)>)/gi, "");
+      document.body.appendChild(script);
+    } else {
+      output.childNodes[0].nodeValue = input;
+    }
+  }
+</script>
+
+<h1>Reflected XSS</h1>
+<div id="output"> </div><br />
+
+<form name="xss" method="GET" action=''>
+  <input type="text" id="input" name="input"><br />
+  <input type="button" id="submit" value="Submit" onclick="showOutput();">
+</form>

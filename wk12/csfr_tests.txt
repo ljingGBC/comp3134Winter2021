@@ -1,0 +1,8 @@
+Use form of PHP page: csfr_form.php
+--when use php form, no matter input valid or invalid username and password combo, it will always login successfully, which is because of correct hidden inputs. But when logged in a different page with different session code, it notified that my session and post values are not the same. This successfully mitigated cross-site forgery request.
+
+
+Use form of HTML page csfr.html.
+--When the html page is opened, it automatically sends the csfr.php page with a valid username and password combo, which means that the information is always in the text inputs and I just only need to submit the form.
+
+

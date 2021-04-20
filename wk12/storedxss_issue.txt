@@ -1,0 +1,3 @@
+Issue about 'storedxss.txt'
+
+A script is stored in storedxss.txt and this gives me direct access to the php file and it also lists the directory. I can go to a location with sensitive information from obtaining a text file and opening its content. So if the attacker have this, he can run the source code/script and get its contents just by opening 'storexss.php' file.
