@@ -1,0 +1,5 @@
+What is the difference between the two solutions?
+
+Strip tags removes all HTML tags and outputs whatever is left while html_entities encodes characters which are special characters in HTML. 
+
+The problem with strip tags is if JavaScript tag is passed on the URL, JavaScript will execute the scripts. On the other hand, html_entitites will convert all the characters and display to string. This will avoid script tags to execute.

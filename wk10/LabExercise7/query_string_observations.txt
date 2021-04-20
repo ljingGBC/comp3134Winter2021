@@ -1,0 +1,13 @@
+Write your observations for the scenarios below.
+1) Navigate to the form and type a valid English word. Write your observations.
+- the browser returns a valid response, because the request is valid, 
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+- the webpage is redirected to another page (/mispelling).
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+- the webpage is redirected to another page (/noresult). 
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observations.
+- the website is the same as the above one, which is a redirection from (/browse) page.
+

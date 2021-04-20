@@ -1,0 +1,32 @@
+What you see on the browser (the issue)
+when adding ../../ in URL, it shows the structure or directories of the droplet to user in the browser, the structure is list following
+
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => backups
+    [3] => cache
+    [4] => crash
+    [5] => lib
+    [6] => local
+    [7] => lock
+    [8] => log
+    [9] => mail
+    [10] => opt
+    [11] => run
+    [12] => snap
+    [13] => spool
+    [14] => tmp
+    [15] => www
+)
+
+
+
+
+
+What sensitive information is given by this page
+These directories may contain sensitive informaiton, such as
+- Backups will include all important files that stored in droplet
+- Log files that may have sensitive information like user access informaiton, operation event, errors, and so on.
+- Mail that may have contact information or other important personal information.

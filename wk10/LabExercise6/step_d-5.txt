@@ -1,0 +1,14 @@
+• What you see on the browser (the issue)
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+
+After adding ?q=%2e%2e%2f in the URL, user can go into one directory down outside of the droplet web root, which means i can see all files outside the php files that I created previously. It uses the hexidecimal representation of ../  
+
+
+• What sensitive information is given by this page
+There is no files which can be seen here, but because I can traverse here, it means I can also traverse anywhere outside of it. Also, if I add files in this directory that may include sensitive information, others who can get here may see it/them as well.

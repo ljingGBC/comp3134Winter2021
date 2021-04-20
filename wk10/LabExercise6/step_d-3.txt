@@ -1,0 +1,13 @@
+What you see on the browser (the issue)
+
+Warning:  scandir(hello): failed to open dir: No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+Warning:  scandir(): (errno 2): No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+There are above errors after adding ?q=hello in the URL, which said the query is not valid. But I can see the php file which I just created previously.
+
+
+
+
+What sensitive information is given by this page
+There is no such file found in the above warning, so there are no sensitive information. 

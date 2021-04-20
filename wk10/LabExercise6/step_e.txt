@@ -1,0 +1,6 @@
+Problem 1. Should not be able to view files and folders before html directory
+Mitigation: Check if the directory or file exists in the directory AND if the path is anywhere other than where the base is. If both are true, access if forbidden.
+
+
+Problem 2.Should not attempt to look at folders or filenames that do not exists
+Mitigation: Check if the directory or file does not exist inside the base. if it does not exist, inform user about it.

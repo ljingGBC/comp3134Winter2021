@@ -1,0 +1,4 @@
+Mitigating Comments:
+convert HTML comments (<!-- -->) to PHP comments (#)
+
+Convert HTML elements to PHP will prevent others from easily seeing your code. Make sure all the converted HTML elements are the ones intended to be seen on the webpage. Any other elements that are supposed to be hidden should stay as PHP elements. 

