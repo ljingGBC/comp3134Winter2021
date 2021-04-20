@@ -1,0 +1,10 @@
+1) "Ben"
+"Ben" is in the database, but becasue the active value of this user is false, so a table is not returned.
+
+
+2) "Ben'-- "
+it returns results with firstname=Ben, but active=0, the table is returned with Ben's information because sql took the query (firstname=Ben'-- AND active=1) which means only the first query is accepted. Anything after -- is regarded as comments.
+
+
+3) Ben' or '1=1
+it returns results with firstname=Ben. The table is returned with Ben's information and any other users whose active=1. The sql query took the boolean injection where it gets the first value, but also includes the boolean  'or'. Therefore, the returned table took the query (firstname=Ben OR 1 AND active=1)
